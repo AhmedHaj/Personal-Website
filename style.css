@@ -1,0 +1,29 @@
+body {
+	background-color: black;
+	
+}
+
+h1 {
+  	color: #FFF;
+	font-weight: 700;
+	font-family: 'Montserrat';
+	text-align: center;
+}
+
+#title {
+	animation-name: colorful;
+	animation-duration: 4s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes colorful {
+	0% {
+	  color: black;
+	}
+	50% {
+	  color: : gray;
+	}
+	100% {
+	  color: white;
+	}
+}
